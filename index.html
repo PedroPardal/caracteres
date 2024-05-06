@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador de Caracteres</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Caracteres</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<div class="cabeçalho">
-    <header>Contador Caracteres.        
-    </header>
-</div>
-    <div class="container">
-        <textarea id="texto" placeholder="Digite algo aqui..."></textarea>
-        <p id="contador">0 caracteres</p>
+<div class="container">
+    <header id="cabeçalho">Contador Caracteres</header>
+  <textarea id="texto" rows="4" cols="50"></textarea>
+  <div id="contador">0 caracteres</div>
+  <button id="resetButton">Resetar Texto</button>
+  <div class="bandeja">
+    <div class="conteudo">
+      <p>Vasco é top</p>
     </div>
-    <script src="script.js"></script>
+  </div>
+</div>
+
+  <script src="script.js"></script>
 </body>
 </html>
